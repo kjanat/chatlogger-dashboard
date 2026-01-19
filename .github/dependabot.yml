@@ -3,10 +3,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "tuesday"
-      time: "03:00"
-      timezone: "Europe/Amsterdam"
+      interval: "monthly"
     groups:
       npm-dependencies:
         patterns:
@@ -15,10 +12,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "tuesday"
-      time: "03:00"
-      timezone: "Europe/Amsterdam"
+      interval: "monthly"
     groups:
       actions-dependencies:
         patterns:
